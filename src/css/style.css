@@ -1,0 +1,54 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+span, .localizacao {
+    color: hsl(227, 10%, 46%);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-height: 720px;
+}
+
+img {
+    width: 80px;
+    border-radius: 50px;
+}
+
+.cartao {
+    background-color: #fff;
+    width: 330px; 
+    height: 330px;
+    border-radius: 8px;
+}
+
+.perfil {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid hsl(227, 10%, 46%);
+}
+
+.estatisticas {
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.estatisticas p {
+    margin: 3px;
+}
+
+.seguidores, .likes, .fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
